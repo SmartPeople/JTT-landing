@@ -25,9 +25,16 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
-    <script src="scripts/vendor/modernizr.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
 
   </head>
   <body>
@@ -43,9 +50,7 @@
               <div class="page__content">
                 <div class="page__content-header">
                   <a href="#home" class="logo j-btn-nav">
-                    <div class="logo__img">
-                      <img src="images/logo-jtt.png" alt="JTT">
-                    </div>
+                    JTT Time tracker for Jira
                   </a>
                 </div>
                 <div class="page__content-views">
@@ -55,9 +60,7 @@
                         <div class="slider__item-content">
                           <div class="slider__screen">
                             <a class="logo">
-                              <div class="logo__img">
-                                <img src="images/logo-jtt.png" alt="JTT">
-                              </div>
+                              JTT Time tracker for Jira
                             </a>
                             <h1>Time Tracker For JIRA</h1>
                             <p class="text">
@@ -73,13 +76,13 @@
                           <div class="widget-mobile">
                             <img src="images/widget.png" alt="JTT widget">
                           </div>
-                        </div>
-                        <div class="slider__item-bottom">
-                          <div class="platforms">
-                            Available for
-                            <a href="#"><i class="platforms__ico"><img src="images/apple.svg" alt=""></i></a>
-                            <a href="#"><i class="platforms__ico"><img src="images/win.svg" alt=""></i></a>
-                            <a href="#"><i class="platforms__ico"><img src="images/linux.svg" alt=""></i></a>
+                          <div class="slider__item-bottom">
+                            <div class="platforms">
+                              Available for
+                              <span href="#"><i class="platforms__ico"><img src="images/apple.svg" alt=""></i></span>
+                              <span href="#"><i class="platforms__ico"><img src="images/win.svg" alt=""></i></span>
+                              <span href="#"><i class="platforms__ico"><img src="images/linux.svg" alt=""></i></span>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -207,11 +210,11 @@
                             </li>
                           </ul>
                           <div class="laptop-tablet"></div>
-                        </div>
-                        <div class="slider__item-bottom hidden-mobile">
-                          <div class="btn-group">
-                            <a href="#home" class="btn btn-default btn-prev j-btn-nav"><i class="ico-back">&larr;</i> Home</a>
-                            <a href="#form" class="btn btn-primary j-btn-nav">Join now</a>
+                          <div class="slider__item-bottom hidden-mobile">
+                            <div class="btn-group">
+                              <a href="#home" class="btn btn-default btn-prev j-btn-nav"><i class="ico-back">&larr;</i> Home</a>
+                              <a href="#form" class="btn btn-primary j-btn-nav">Join now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -271,13 +274,15 @@
                               <button type="submit" class="btn btn-primary"><i class="ico-success"></i>Join Now</button>
                             </div>
                           </form>
-                        </div>
-                        <div class="slider__item-bottom">
-                          by clicking in 'send' you accept the <a href="#" class="link-underline">terms and conditions</a>
-                          of the service and <a href="#" class="link-underline">privacy policy</a>
+                          <div class="slider__item-bottom">
+                            by clicking in 'send' you accept the <a href="#" class="link-underline">terms and conditions</a>
+                            of the service and <a href="#" class="link-underline">privacy policy</a>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    <div class="slider__nav-left"></div>
+                    <div class="slider__nav-right"></div>
                   </div>
                 </div>
               </div>
@@ -289,20 +294,32 @@
             </div>
           </div>
         </div>
+        <div class="pager">
+          <div class="pager__item active"></div>
+          <div class="pager__item"></div>
+          <div class="pager__item"></div>
+        </div>
         <div class="company">
           <div class="company__container">
-            <a href="http://speople.pro/contacts" class="company__logo-image">Smart people</a>
+            <a href="http://speople.pro/contacts?locale=en" class="company__logo-image">Smart people</a>
           </div>
         </div>
       </div>
     </main>
 
 
-    <script src="scripts/vendor.js"></script>
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/html5-history-api/history.js"></script>
+    <script src="/bower_components/isMobile/isMobile.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
 
 
+    <!-- build:js(.tmp) scripts/main.js -->
     <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 
     <!-- Google Analytics -->
     <script>

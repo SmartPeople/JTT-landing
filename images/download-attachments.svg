@@ -1,1 +1,18 @@
-<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title>icon</title><g fill="#8F94AB" fill-rule="evenodd"><rect x="19" y="13" width="2" height="14" rx="100"/><rect x="15.592" y="23.64" width="6" height="2" rx="100"/><path d="M23.602 22.485c.39.39.39 1.026.007 1.408l-2.843 2.84c-.387.388-1.014.388-1.407-.005-.39-.39-.39-1.026-.007-1.408l2.842-2.842c.387-.387 1.014-.386 1.407.007z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5 (25232) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="landing-features-03" sketch:type="MSArtboardGroup" transform="translate(-1412.000000, -364.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(-642.000000, 126.000000)">
+                <g id="item" transform="translate(2054.000000, 227.000000)">
+                    <g id="icon" transform="translate(0.000000, 11.000000)">
+                        <rect id="Rectangle-347" fill="#8F94AB" sketch:type="MSShapeGroup" x="19" y="13" width="2" height="14" rx="100"></rect>
+                        <rect id="Rectangle-348" fill="#8F94AB" sketch:type="MSShapeGroup" x="15.5921133" y="23.6403958" width="6" height="2" rx="100"></rect>
+                        <path d="M23.6023587,22.4848649 C23.992883,22.8753892 23.9905779,23.5108592 23.6088797,23.8925575 L20.7674106,26.7340265 C20.3804877,27.1209494 19.752965,27.1207525 19.359718,26.7275055 L19.359718,26.7275055 C18.9691937,26.3369813 18.9714988,25.7015112 19.353197,25.3198129 L22.1946661,22.4783439 C22.581589,22.091421 23.2091117,22.0916179 23.6023587,22.4848649 L23.6023587,22.4848649 Z" id="Rectangle-348" fill="#8F94AB" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

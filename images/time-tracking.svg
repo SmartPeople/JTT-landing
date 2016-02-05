@@ -1,1 +1,27 @@
-<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>icon</title><g fill="none" fill-rule="evenodd"><mask id="a" fill="#fff"><use xlink:href="#path-1"/></mask><use fill="#8F94AB" xlink:href="#path-1"/><path d="M19.99-.97l.1 7.004S35.015 20 35.05 19.998c2.368-.027 7.446 0 7.446 0L39.978 2.78 31.07-1.084 19.99-.97z" fill="#5DD572" mask="url(#a)"/><circle fill="#5DD572" mask="url(#a)" cx="20" cy="1" r="1"/><circle fill="#5DD572" mask="url(#a)" cx="39" cy="20" r="1"/><rect fill="#8F94AB" x="18" y="10" width="2" height="12" rx="100"/><path d="M25.79 20c.558 0 1.01.444 1.01 1 0 .552-.443 1-1.002 1H19c-.552 0-1-.444-1-1 0-.552.448-1 1.01-1h6.78z" fill="#8F94AB"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5 (25232) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="landing-features-03" sketch:type="MSArtboardGroup" transform="translate(-976.000000, -364.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(-642.000000, 126.000000)">
+                <g id="item" transform="translate(1588.000000, 197.000000)">
+                    <g id="icon" transform="translate(30.000000, 41.000000)">
+                        <g id="Path-274">
+                            <mask id="mask-2" sketch:name="Mask" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#8F94AB" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+                            <path d="M19.9909825,-0.971268479 L20.0914496,6.0341223 C20.0914496,6.0341223 35.0144255,19.9986377 35.049683,19.9982293 C37.4184829,19.9707912 42.49585,19.9982293 42.49585,19.9982293 C42.49585,19.9982293 39.9780913,2.77974327 39.9780914,2.77974315 C39.9780915,2.77974304 31.0703036,-1.08443515 31.0703036,-1.08443515 L19.9909825,-0.971268479 Z" fill="#5DD572" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+                            <circle id="Oval-152" fill="#5DD572" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="20" cy="1" r="1"></circle>
+                            <circle id="Oval-152" fill="#5DD572" sketch:type="MSShapeGroup" mask="url(#mask-2)" cx="39" cy="20" r="1"></circle>
+                        </g>
+                        <rect id="Rectangle-343" fill="#8F94AB" sketch:type="MSShapeGroup" x="18" y="10" width="2" height="12" rx="100"></rect>
+                        <path d="M21.400001,17.6094711 C21.400001,17.0519551 21.8438658,16.599999 22.400001,16.599999 L22.400001,16.599999 C22.9522858,16.599999 23.400001,17.0431042 23.400001,17.6015774 L23.400001,23.1013423 L23.400001,24.3996006 C23.400001,24.9521065 22.9561362,25.400001 22.400001,25.400001 L22.400001,25.400001 C21.8477163,25.400001 21.400001,24.9515093 21.400001,24.3905289 L21.400001,17.6094711 Z" id="Rectangle-343" fill="#8F94AB" sketch:type="MSShapeGroup" transform="translate(22.400001, 21.000000) rotate(-270.000000) translate(-22.400001, -21.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

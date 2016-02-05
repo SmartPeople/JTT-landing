@@ -1,1 +1,18 @@
-<svg width="24" height="40" viewBox="0 0 24 40" xmlns="http://www.w3.org/2000/svg"><title>icon</title><path d="M14.992 26.877c.34-.073.673-.172.92-.283l7.176-3.188c.502-.224.912-.85.912-1.397v-4.02c0-.54-.448-.99-1-.99H1c-.553 0-1 .444-1 .99v4.02c0 .54.41 1.172.912 1.396l7.176 3.188c.247.11.58.21.92.284-.006.04-.008.08-.008.12v7.004c0 .552.346 1.286.772 1.64l4.456 3.715c.432.36.772.192.772-.364V27.007c0-.044-.003-.087-.008-.13zM13 36l-2-1.956V26l-9-4v-3h20v3l-9 4v10z" fill="#8F94AB" fill-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="40px" viewBox="0 0 24 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5 (25232) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="landing-features-03" sketch:type="MSArtboardGroup" transform="translate(-984.000000, -664.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(-642.000000, 126.000000)">
+                <g id="item" transform="translate(1618.000000, 527.000000)" sketch:type="MSShapeGroup">
+                    <g id="icon" transform="translate(8.000000, 11.000000)">
+                        <path d="M14.9919148,26.8774477 C15.3312168,26.8043739 15.6648024,26.7045322 15.9124965,26.594446 L23.0875035,23.405554 C23.589902,23.1822658 24,22.5564136 24,22.009222 L24,17.990778 C24,17.4509752 23.5519738,17 22.9993054,17 L1.00069463,17 C0.44746922,17 0,17.4435864 0,17.990778 L0,22.009222 C0,22.5490248 0.408538595,23.1815727 0.912496492,23.405554 L8.08750351,26.594446 C8.33501936,26.7044531 8.66780005,26.804503 9.00718742,26.8777059 C9.00244397,26.9169958 9,26.9569876 9,26.9975446 L9,34.0024554 C9,34.5536886 9.34568626,35.2880719 9.77211186,35.6434266 L14.2278881,39.3565734 C14.6602228,39.7168523 15,39.5492199 15,38.9931545 L15,27.0068455 C15,26.962994 14.9972496,26.9198056 14.9919147,26.8774477 Z M13,36 L11,34.0444679 L11,26 L2,22 L2,19 L22,19 L22,22 L13,26 L13,36 Z" id="Rectangle-354" fill="#8F94AB"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
