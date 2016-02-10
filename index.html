@@ -316,7 +316,7 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-73220711-1', 'auto');
+      ga('create', 'UA-73613216-2', 'auto');
       ga('send', 'pageview');
 
       window.addEventListener("load", trackPageNav);
@@ -333,20 +333,19 @@
         });
       }
 
-      document.getElementById('joinForm').onsubmit = function(e) {
+      document.getElementById('joinForm').onsubmit = function (e) {
         e.preventDefault();
-        var elements = e.target.elements;
-        var submitBtn = document.querySelector('.slider__item--form .btn-primary');
-        var userName = document.getElementById('field-user-name');
-        var email = document.getElementById('field-email');
-        var companyName = document.getElementById('field-company-name');
-        var companySize = document.getElementById('field-company-size');
-        var valid = true;
-        var submitted = false;
+        var elements = e.target.elements,
+          submitBtn = document.querySelector('.slider__item--form .btn-primary'),
+          userName = document.getElementById('field-user-name'),
+          email = document.getElementById('field-email'),
+          companyName = document.getElementById('field-company-name'),
+          companySize = document.getElementById('field-company-size'),
+          valid = true,
+          submitted = false;
 
         function changeState() {
           submitted = false;
-
           submitBtn.classList.add('btn-primary');
           submitBtn.classList.remove('success');
           submitBtn.innerHTML = 'Join Now';
@@ -360,13 +359,13 @@
             valid = false;
           }
 
-          elements[i].addEventListener('keydown', function(e) {
+          elements[i].addEventListener('keydown', function (e) {
             if (submitted) {
               changeState();
             }
           });
 
-          elements[i].addEventListener('change', function(e) {
+          elements[i].addEventListener('change', function (e) {
             if (submitted) {
               changeState();
             }
