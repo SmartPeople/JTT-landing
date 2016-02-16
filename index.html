@@ -27,13 +27,27 @@ in a new, effective and easier way.">
     <link href='http://jttapp.com/apple-touch-icon.png'>
 
     <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no' />
-    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200,300,700' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 
-      <link rel="stylesheet" href="styles/main.css">
+
+    <style>
+      body {
+        font-weight: 300;
+        color: #a7aabe;
+        background: #595c6e;
+        font-size: 14px;
+        width: 100%;
+        height: 100%;
+      }
+
+      .page-scroll {
+        opacity: 0;
+      }
+    </style>
+
 
 
   </head>
@@ -437,14 +451,22 @@ in a new, effective and easier way.">
 
     <script type="application/ld+json">
       {
+        "@context": "http://jttapp.com",
+        "@type": "Organization",
+        "url": "http://www.jttapp.com",
+        "logo": "http://www.jttapp.com/images/logo.png"
+      }
+    </script>
+
+    <script type="application/ld+json">
+      {
         "@context" : "http://schema.org",
         "@type" : "Organization",
         "url" : "http://www.speople.pro/contacts?locale=en",
-        "logo": "http://www.speople.pro/assets/logo.png",
         "contactPoint" : [{
           "@type" : "ContactPoint",
           "telephone" : "+7-3812-30-85-70",
-          "email" : "info@speople.pro",
+          "email" : "info@speople.pro"
           "contactType" : "Sales"
         }]
       }
@@ -452,3 +474,5 @@ in a new, effective and easier way.">
 
   </body>
 </html>
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,200,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="styles/main.css">
